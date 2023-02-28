@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+    <table border="1" cellspacing="0" width="300px" height="300px">
+        <tr>
+            <td colspan="=3">1</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2</td>
+            <td>3</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>6</td>
+        </tr>
+    
+    </table>
+    <hr/>
+   <table>
+    <table border="1" cellspacing="0" width="300px" height="300px">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td colspan="2">9</td>
+            <td colspan="2">10</td>
+        </tr>
+        <tr>
+            <td colspan="2">11</td>
+            <td colspan="2">12</td>
+        </tr>
+    </table>
+    <hr/>
+
+    <table border="1" cellspacing="0" width="300px" height="300px"> 
+        <tr>
+            <td>1</td>
+            <td rowspan="2">2</td>
+            <td rowspan="3">3</td>
+            <td rowspan="4">4</td>
+            <td rowspan="5">5</td>
+        </tr>
+        <tr>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+    </table>
+    <hr/>
+    <table border="1" cellspacing="0" width="300px" height="300px" >
+        <tr>
+            <td colspan="4">12</td>
+        </tr>
+        <tr>
+            <td colspan="4">16</td>
+        </tr>
+        <tr>
+            <td rowspan="2">20</td>
+            <td colspan="3">21</td>
+        </tr>
+        <tr>
+            <td colspan="3">25</td>
+        </tr>
+    </table>
+    <hr/>
+<table border="1" cellspacing="0" width="300px" height="300px">
+    <tr>
+        <td colspan="3">Subject</td>
+        <td>John Doe </td>
+        <td>Miriam Luther</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Biology</td>
+        <td>Practical</td>
+        <td>A</td>
+        <td colspan="2">A</td>
+    </tr>
+    <tr>
+        <td>Theory</td>
+        <td>A+</td>
+        <td colspan="2">A</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Chemistry</td>
+        <td>Practical</td>
+        <td>B</td>
+        <td colspan="2">C</td>
+    </tr>
+    <tr>
+        <td>Theory</td>
+        <td>A</td>
+        <td colspan="2">C+</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Physics</td>
+        <td>Practical</td>
+        <td>A</td>
+        <td colspan="2">A</td>
+    </tr>
+    <tr>
+        <td>Theory</td>
+        <td>A-</td>
+        <td colspan="2">A-</td>
+       
+    </tr>
+</table>
+<hr/>
+ <h1>Zoo Keeper Application Form</h1>
+ <i>Please comple the form,Mandatory fields are marked with a<sup>*</sup></i>
+ <br/>
+
+ <form action="#">
+
+   
+   <fieldset>
+    <legend>Contact Details</legend>
+    <label for="name">Adinizi daxil edin <sup>*</sup >:</label>
+    <input type="text" minlength="3" maxlength="10" id = "name" placeholder="Admin" required="required"/>
+   
+    <br/>
+    <br/>
+   <label for="number">Telephone:&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label>
+    <input type="Telephone" id="number" minlength="1" maxlength="12"/>
+   
+    <br/>
+    <br/>
+   <label for="email">Email <sup>*</sup >:&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<label>
+    <input type="email" id= email required="required" placeholder="admin@gmail.com" />
+   
+    <br/>
+    <br/>
+   
+   
+   
+    </form>
+   </fieldset>
+
+   <br/>
+
+   <fieldset>
+    <legend>Personel Information</legend>
+    <label for="Age">Age<sup>*</sup >:</label>
+    <input type="date" id="Age" required="required"/>
+    <br/>
+    <br/>
+    <label for="txt">When did you <br/> frist know you <br/>  wanted to be a <br/> zoo-keeper? <br/></label>
+    <textarea id="txt" cols="30" rows="10"></textarea>
+
+   </fieldset>
+   <br/>
+   <fieldset>
+    <legend>Pick Your Favorite Animals</legend>
+    <label for="zeb">Zebra</label>
+    <input type="checkbox" id="zeb">
+
+    <label for="cat">Cat</label>
+    <input type="checkbox" id="cat">
+
+    <label for="Ana">Anaconda</label>
+    <input type="checkbox" id="Ana">
+
+    <label for="hum">Human</label>
+    <input type="checkbox" id="hum">
+    <br/>
+    <br/>
+    <label for="ele">Elephant</label>
+    <input type="checkbox" id="ele">
+
+    <label for="wil">Wildebeest</label>
+    <input type="checkbox" id="wil">
+
+    <label for="pig">Pigeon</label>
+    <input type="checkbox"  id="pig">
+
+    <label for="cr">Crab</label>
+    <input type="checkbox"  id="cr">
+
+   </fieldset>
+   <button type="submit"> Submit Application</button>
+   
+   <br/>
+
+   <ul>
+    <li>
+        <a href="../27.02.23/index.html" target="_blank">(Dunenki tapsiriq)27.02.23</a>
+    </li>
+   </ul>
+   <a href="#">top</a>
+</body>
+</html>
