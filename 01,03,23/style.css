@@ -3,15 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-h3{
-    background-color: green;
-    color: green;
-}
-img{
-    width: 100px
-    
-    
-    
+.head{
+    width: 300px;
+    margin: auto;
 }
 
