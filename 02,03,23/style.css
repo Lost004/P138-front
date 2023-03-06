@@ -6,7 +6,7 @@
 
 }
 body{
-    background-color: aquamarine;
+    background-color:#3162a2;
     
 
 }
@@ -17,7 +17,7 @@ body{
 }
 #general{
     position: absolute;
-    top:50%;
+    top:5%;
     left:50%;
     transform: translate(-50%,50%);
 }
@@ -125,6 +125,12 @@ font-weight: bold;
     margin-left: 8px;
 }
 button:hover {
-    background-color:#0075aa
-    ;
+    background-color:#0075aa;
+}
+#fb:hover {
+    background-color: #0896d7;
+}
+
+#tw:hover {
+    background-color: #0896d7
 }
